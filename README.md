@@ -9,7 +9,7 @@ When dealing with very large files it is important to perform the download or up
 The IBM MobileFirst Foundation client API `WLResourceRequest` is not optimized for handling very large files since the request/response content is loaded entirely into memory. 
 `WLResourceRequest` API for iOS offers a helper `WLResourceRequest.sendWithDelegate` API that allows downloading of large files. 
 
-This sample shows a method for handling large files which can be applied to all platforms supported by IBM MobileFirst Foundation.
+This sample shows a method for handling large files which can be applied to all native platforms supported by IBM MobileFirst Foundation.
 
 ## Components
 * A Foundation Java Adapter implementing two endpoints. One for downloading a large file and second for uploading a large file. 
